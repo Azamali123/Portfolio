@@ -217,6 +217,190 @@
       </div>
     </div>
   </div>
+</section><section class="award-section">
+
+    <style>
+        .award-section{
+            padding:100px 8%;
+            background: #0b6b4f;
+            font-family:Inter,sans-serif;
+        }
+
+        .award-container{
+            max-width:1300px;
+            margin:auto;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            gap:70px;
+            flex-wrap:wrap;
+        }
+
+        .award-content{
+            flex:1;
+            min-width:350px;
+        }
+
+        .award-badge{
+            display:inline-block;
+         background: #ffffff;
+               color: #000000;
+            padding:8px 18px;
+            border-radius:30px;
+            font-size:14px;
+            margin-bottom:20px;
+            border:1px solid rgba(255,255,255,.08);
+        }
+
+        .award-content h2{
+            font-size:52px;
+            line-height:1.15;
+            color:#fff;
+            margin-bottom:20px;
+            font-family:Fraunces,serif;
+        }
+
+        .award-content h2 span{
+            color:#facc15;
+        }
+
+        .award-content p{
+            color:#cbd5e1;
+            line-height:1.8;
+            font-size:17px;
+            margin-bottom:35px;
+            max-width:600px;
+        }
+
+        .award-info{
+            display:flex;
+            gap:18px;
+            flex-wrap:wrap;
+        }
+
+        .award-box{
+           background-color: hsla(0, 0%, 100%, .1);
+            padding:18px;
+            border-radius:15px;
+            min-width:150px;
+            transition:.3s;
+            border:1px solid rgba(255,255,255,.05);
+        }
+
+        .award-box:hover{
+            transform:translateY(-6px);
+            background:#273449;
+        }
+
+        .award-box h3{
+            color:#fff;
+            margin:0;
+            font-size:22px;
+        }
+
+        .award-box span{
+            color:#94a3b8;
+            font-size:14px;
+        }
+
+        .award-image{
+            flex:1;
+            display:flex;
+            justify-content:center;
+        }
+
+        .award-image img{
+            width:100%;
+            max-width:600px;
+            border-radius:20px;
+            box-shadow:0 25px 60px rgba(0,0,0,.4);
+            transition:.4s;
+        }
+
+        .award-image img:hover{
+            transform:scale(1.03) rotate(-1deg);
+        }
+
+        @media(max-width:991px){
+
+            .award-container{
+                flex-direction:column-reverse;
+                text-align:center;
+            }
+
+            .award-content h2{
+                font-size:40px;
+            }
+
+            .award-info{
+                justify-content:center;
+            }
+
+        }
+
+        @media(max-width:576px){
+
+            .award-section{
+                padding:70px 25px;
+            }
+
+            .award-content h2{
+                font-size:30px;
+            }
+
+        }
+    </style>
+
+    <div class="award-container">
+
+        <div class="award-content">
+
+            <span class="award-badge">
+                🏆 Recognition & Achievement
+            </span>
+
+            <h2>
+                Best Shopify Accounts Manager
+                <br>
+                <span>/ Team Lead</span>
+            </h2>
+
+            <p>
+                Proudly recognized by <strong>TAUT</strong> for outstanding leadership,
+                Shopify account management, ecommerce growth, team management,
+                and exceptional contribution in building and scaling multiple Shopify brands.
+            </p>
+
+            <div class="award-info">
+
+                <div class="award-box">
+                    <h3>2026</h3>
+                    <span>Award Year</span>
+                </div>
+
+                <div class="award-box">
+                    <h3>TAUT</h3>
+                    <span>Presented By</span>
+                </div>
+
+                <div class="award-box">
+                    <h3>Leadership</h3>
+                    <span>Team Lead</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="award-image">
+
+            <!-- Replace image path -->
+            <img src="/Assets/Certificate.png" alt="Best Shopify Accounts Manager / Team Lead Award">
+
+        </div>
+
+    </div>
+
 </section>
 
 <!-- 2. ABOUT ME -->
@@ -363,6 +547,7 @@
     </div>
   </div>
 </section>
+
 
 <!-- 3. MY JOURNEY -->
 <section id="journey" class="py-28 px-6 lg:px-8">
